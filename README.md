@@ -1,7 +1,10 @@
 # sbc-ecommerce
-build project using reactjs and springboot
+build project using reactjs 
 #first use command 
 1) npm install
+
+2) npm run dev
+
 => if you find this error then 
 PS C:\Mehdi\git\sbc-ecommerce\forntend\ecommerce-frontend-v1> npm install
 npm error code ERESOLVE
@@ -26,10 +29,10 @@ npm error For a full report see:
 npm error C:\Users\razam\AppData\Local\npm-cache\_logs\2025-01-27T12_13_31_164Z-eresolve-report.txt
 npm error A complete log of this run can be found in: C:\Users\razam\AppData\Local\npm-cache\_logs\2025-01-27T12_13_31_164Z-debug-0.log
 
-2) npm install --legacy-peer-deps
+3) npm install --legacy-peer-deps
 
-3) npm install --force
+4) npm install --force
 
-4) npm run dev
+5) npm run dev
 
 and done now enjoy.
