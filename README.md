@@ -5,10 +5,13 @@ here the demo of the project♥️.
 https://ecommerce-frontend-reactjs-ten.vercel.app
 
 build project using reactjs 
-#first use command 
-1) npm install
+#first use command
 
-2) npm run dev
+1) cd ecommerce-frontend-reactjs
+
+2) npm install
+
+3) npm run dev
 
 => if you find this error then 
 PS C:\Mehdi\git\sbc-ecommerce\forntend\ecommerce-frontend-v1> npm install
@@ -34,11 +37,11 @@ npm error For a full report see:
 npm error C:\Users\razam\AppData\Local\npm-cache\_logs\2025-01-27T12_13_31_164Z-eresolve-report.txt
 npm error A complete log of this run can be found in: C:\Users\razam\AppData\Local\npm-cache\_logs\2025-01-27T12_13_31_164Z-debug-0.log
 
-3) npm install --legacy-peer-deps
+4) npm install --legacy-peer-deps
 
-4) npm install --force
+5) npm install --force
 
-5) npm run dev
+6) npm run dev
 
 and done now enjoy.
 just add the backend code do not forget thank.
