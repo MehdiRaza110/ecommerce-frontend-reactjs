@@ -7,12 +7,12 @@ import { ProductCard } from "./components/ProductCard"
 import { Button } from "@/components/ui/button"
 
 const products = [
-  { id: 1, name: "Stylish Watch", price: 199.99, rating: 4.5, image: "/placeholder.svg?height=300&width=300" },
-  { id: 2, name: "Leather Bag", price: 129.99, rating: 3.8, image: "/placeholder.svg?height=300&width=300" },
-  { id: 3, name: "Sunglasses", price: 79.99, rating: 4.2, image: "/placeholder.svg?height=300&width=300" },
-  { id: 4, name: "Running Shoes", price: 149.99, rating: 4.7, image: "/placeholder.svg?height=300&width=300" },
-  { id: 5, name: "Wireless Earbuds", price: 89.99, rating: 4.0, image: "/placeholder.svg?height=300&width=300" },
-  { id: 6, name: "Smart Speaker", price: 129.99, rating: 4.3, image: "/placeholder.svg?height=300&width=300" },
+    { id: 1, name: "Stylish Watch", price: 199.99, rating: 4.5, image: "/watch.jpg?height=300&width=300" },
+    { id: 2, name: "Leather Bag", price: 129.99, rating: 3.8, image: "/bag.jpg?height=300&width=300" },
+    { id: 3, name: "Sunglasses", price: 79.99, rating: 4.2, image: "/sunglasses.jpg?height=300&width=300" },
+    { id: 4, name: "Running Shoes", price: 149.99, rating: 4.7, image: "/shoes.jpg?height=300&width=300" },
+    { id: 5, name: "Wireless Earbuds", price: 89.99, rating: 4.0, image: "/earbuds.jpg?height=300&width=300" },
+    { id: 6, name: "Smart Speaker", price: 129.99, rating: 4.3, image: "/speaker.jpg?height=300&width=300" },
 ]
 
 export default function Home() {

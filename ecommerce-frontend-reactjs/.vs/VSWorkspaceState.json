@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\product",
+    "\\app\\products",
+    "\\app\\product\\[id]",
+    "\\components",
+    "\\hooks"
+  ],
+  "SelectedNode": "\\app\\page.tsx",
+  "PreviewInSolutionExplorer": false
+}

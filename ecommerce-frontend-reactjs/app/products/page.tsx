@@ -7,17 +7,18 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 
 // Demo products data
 const demoProducts = [
-  { id: 1, name: "Stylish Watch", price: 199.99, rating: 4.5, image: "/placeholder.svg?height=300&width=300" },
-  { id: 2, name: "Leather Bag", price: 129.99, rating: 3.8, image: "/placeholder.svg?height=300&width=300" },
-  { id: 3, name: "Sunglasses", price: 79.99, rating: 4.2, image: "/placeholder.svg?height=300&width=300" },
-  { id: 4, name: "Running Shoes", price: 149.99, rating: 4.7, image: "/placeholder.svg?height=300&width=300" },
-  { id: 5, name: "Wireless Earbuds", price: 89.99, rating: 4.0, image: "/placeholder.svg?height=300&width=300" },
-  { id: 6, name: "Smart Speaker", price: 129.99, rating: 4.3, image: "/placeholder.svg?height=300&width=300" },
-  { id: 7, name: "Fitness Tracker", price: 59.99, rating: 4.1, image: "/placeholder.svg?height=300&width=300" },
-  { id: 8, name: "Portable Charger", price: 39.99, rating: 4.4, image: "/placeholder.svg?height=300&width=300" },
-  { id: 9, name: "Wireless Mouse", price: 29.99, rating: 4.2, image: "/placeholder.svg?height=300&width=300" },
-  { id: 10, name: "Bluetooth Keyboard", price: 49.99, rating: 4.0, image: "/placeholder.svg?height=300&width=300" },
+    { id: 1, name: "Stylish Watch", price: 199.99, rating: 4.5, image: "/watch.jpg?height=300&width=300" },
+    { id: 2, name: "Leather Bag", price: 129.99, rating: 3.8, image: "/bag.jpg?height=300&width=300" },
+    { id: 3, name: "Sunglasses", price: 79.99, rating: 4.2, image: "/sunglasses.jpg?height=300&width=300" },
+    { id: 4, name: "Running Shoes", price: 149.99, rating: 4.7, image: "/shoes.jpg?height=300&width=300" },
+    { id: 5, name: "Wireless Earbuds", price: 89.99, rating: 4.0, image: "/earbuds.jpg?height=300&width=300" },
+    { id: 6, name: "Smart Speaker", price: 129.99, rating: 4.3, image: "/speaker.jpg?height=300&width=300" },
+    { id: 7, name: "Fitness Tracker", price: 59.99, rating: 4.1, image: "/tracker.jpg?height=300&width=300" },
+    { id: 8, name: "Portable Charger", price: 39.99, rating: 4.4, image: "/charger.jpg?height=300&width=300" },
+    { id: 9, name: "Wireless Mouse", price: 29.99, rating: 4.2, image: "/mouse.jpg?height=300&width=300" },
+    { id: 10, name: "Bluetooth Keyboard", price: 49.99, rating: 4.0, image: "/keyboard.jpg?height=300&width=300" },
 ]
+
 
 export default function ProductsPage() {
   const [currentPage, setCurrentPage] = useState(1)
